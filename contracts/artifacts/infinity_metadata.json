@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "runforever",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/infinite.sol": "infinity"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/infinite.sol": {
+			"keccak256": "0x783281f536b01f61b3dd033a0d2f89ec9eb4fdfccbcd90a3b504f59dde08efc6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4db46575caa7863b863f1b3e06e2da0e8d7908a3b6cf3af55607a6c15354ae8",
+				"dweb:/ipfs/QmYgB5uLjPX2wXC5bewtJLg4i9YyyGJEiHCqrkcmdJT6e1"
+			]
+		}
+	},
+	"version": 1
+}
