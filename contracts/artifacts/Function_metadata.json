@@ -30,6 +30,57 @@
 			},
 			{
 				"inputs": [],
+				"name": "callFuncWithKeyValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "destructuring",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "returnMultiple",
 				"outputs": [
 					{
@@ -103,11 +154,11 @@
 	},
 	"sources": {
 		"contracts/functions.sol": {
-			"keccak256": "0x4feb16f19d3046962d5f52e8b1caec85fb60c19990beeeb81d0973b4282195eb",
+			"keccak256": "0x8d2416d43b01f506ac3dbf99a8a9410cc51b88910ea39d629b118bc60a9f3115",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4db66387d52ad03e891b0eb29092a921889cbc47e77dce1d1f70b2a2a8474593",
-				"dweb:/ipfs/Qme8deocsfUUgff9KhdvzCRRFwrd6yFt2M1LEhGUtN3LAJ"
+				"bzz-raw://1d72144381df5d1fda9d5d7e846d19499b83af59e896e36d1849d028d912c3be",
+				"dweb:/ipfs/QmNxmPtPHpEdTcNLzkoXBLF2yLm9bRKTUGmG2Wojw7iZgA"
 			]
 		}
 	},
