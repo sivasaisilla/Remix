@@ -34,15 +34,25 @@ contract Function{
 
 
 contract SecondFunction{
-    function SecondFunctionContract(uint x,uint y, uint z, address a,bool b, string memory c) public pure returns(uint)
-    {}
-
-    function callFunction() public view returns(address)
+    function SecondFunctionContract(uint x,uint y) public pure returns(uint, uint)
     {
-        return (msg.sender);
+        return (x,y);
     }
+
+    function callFunction() public pure returns(uint, uint)
+    {
+        return SecondFunctionContract({y:2,x:1});
+    }
+
+}
+
+contract Account2{
+    function transferred(address payable to) public payable{
+        to.transfer(msg.value);
+
+    }
+}
 
 
 
     
-}
