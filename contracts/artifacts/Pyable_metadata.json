@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/payable.sol": "Pyable"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/payable.sol": {
+			"keccak256": "0xf1314a36b37372fb07410b94cacca216ac1926fa52df13307c641c5148a54f61",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://180bc7cc301c4b5264fa214fdb3c56bdf4bdb58abd1d787f2f72d203b5f9155b",
+				"dweb:/ipfs/QmZgjLCTX13RQKvncXbdoVzuLtvNjhq5PF63fNaC6FxEzo"
+			]
+		}
+	},
+	"version": 1
+}
