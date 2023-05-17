@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FallbackRecieve.sol": "FallbackReceive"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FallbackRecieve.sol": {
+			"keccak256": "0x10ce2fccefb88d941d8a4081637d630ced95f1d7b1b91ea6c2ceb3b1b46e5924",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9aecf625a77d06e60e6e22a00ddc7168b5292e7ee7d83c5403022669ba3af20d",
+				"dweb:/ipfs/QmNYGQbZZZUWEdicgEaZqKDiTeA8TND3uPM56aobboSP1i"
+			]
+		}
+	},
+	"version": 1
+}
